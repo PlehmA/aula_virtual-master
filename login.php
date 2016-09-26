@@ -12,29 +12,37 @@
     <link href="CSS/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link href="CSS/jumbotron-narrow.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS\font-awesome.css">
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="header clearfix">
-            <nav>
-                <ul class="nav nav-pills pull-right">
-                    <li role="presentation" class="active"><a href="index.html">Home</a></li>
-                    <li role="presentation"><a href="#">FAQ</a></li>
-                    <li role="presentation">
-                        <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span><input class="form-control" type="text" placeholder="Email address" name="user"></div>
-                    </li>
-                    <li role="presentation">
-                        <div class="input-group"><span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span><input class="form-control" type="password" placeholder="Password" name="pass"></div>
-                    </li>
-                </ul>
-            </nav>
+               <div class="header clearfix">
             <h3 class="text-muted">Aula virtual</h3>
+            <nav class="navbar-right">
+
+                <div class="dropdown">
+                    <div class="btn-group">
+                        <a href="index.html"><button type="button" class="btn btn-info">Home</button></a>
+                        <a href="#"><button type="button" class="btn btn-info">F.A.Q.</button></a>
+                    </div>
+                    <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Login
+  <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li role="presentation">
+                            <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span><input class="form-control" type="text" placeholder="Email address" name="user"></div>
+                        </li>
+                        <li role="presentation">
+                            <div class="input-group"><span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span><input class="form-control" type="password" placeholder="Password" name="pass"></div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
+
         <div class="container">
             <form class="form-signin">
-                <h2 class="form-signin-heading">Login</h2>
+                <h2 class="form-signin-heading">Sector privado</h2>
                 </br>
                 <label for="inputEmail" class="sr-only">Nombre de usuario</label>
                 <input type="text" id="inputUser" class="form-control" placeholder="Usuario" required autofocus>
@@ -60,6 +68,8 @@
             </div>
         </footer>
     </div>
+    <script src="JS/jquery-3.1.1.js"></script>
+    <script src="JS/bootstrap.js"></script>
     <script src="JS/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
