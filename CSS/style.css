@@ -45,6 +45,7 @@ body {
     border-top-right-radius: 0;
 }
 
-footer a span {
-    display: inline-block;
+.tittle {
+    text-align: center;
+    background: url(Images/boy-286240_1920.jpg)
 }
