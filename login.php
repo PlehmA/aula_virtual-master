@@ -18,7 +18,7 @@
 <body>
     <div class="container">
                <div class="header clearfix">
-            <h3 class="text-muted">Aula virtual</h3>
+              <h3 class="text-muted">Aula virtual <img src="Images/book.png" class="" alt="Cinque Terre" width="100" height="80"></h3>
             <nav class="navbar-right">
 
                 <div class="dropdown">
