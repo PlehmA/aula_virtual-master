@@ -41,19 +41,19 @@
         </div>
 
         <div class="container">
-            <form class="form-signin">
+            <form name="frmlogin" accept-charset="utf-8" method="POST" action="login.php" class="form-signin">
                 <h2 class="form-signin-heading">Sector privado</h2>
                 </br>
                 <label for="inputEmail" class="sr-only">Nombre de usuario</label>
-                <input type="text" id="inputUser" class="form-control" placeholder="Usuario" required autofocus>
+                <input type="text" name="user" id="inputUser" class="form-control" placeholder="Usuario" required autofocus maxlength="80">
                 </br>
                 <label for="inputPassword" class="sr-only">Password</label>
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
                 <div class="checkbox">
                 <label> <input type="checkbox" value="remember-me">Recordar</label>
                 </div>
                 </br>
-                <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+                <button class="btn btn-lg btn-primary btn-block" type="submit" value="Ingresar">Entrar</button>
             </form>
         </div>
         <footer class="footer">
