@@ -44,8 +44,8 @@ $_SESSION["code"]==$_POST["captcha"])
         $con->close();
     } // if checkbox novedades
 }
-elseif ($_SESSION["code"]!=$_POST["captcha"]) 
+elseif ($_SESSION["code"]!=$_POST["captcha"])
 {
-echo "<p style='text-align:center'>Codigo Invalido</p>";
+    echo "<p style='text-align:center'>Codigo Invalido</p>";
 }
 ?>
