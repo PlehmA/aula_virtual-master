@@ -26,7 +26,8 @@ if(isset($_POST['enviar']))//para saber si el botón registrar fue presionado.
             if($_POST['password'] == $_POST['repassword'])//Si los campos son iguales, continua el registro y caso contrario saldrá un mensaje de error.
             { 
                 $usuario = $_POST['usuario']; 
-                $password = $_POST['password']; 
+                $password = $_POST['password'];
+                $mail = $_POST['email'] 
                 $sql = "INSERT INTO usuarios (usuario,password) VALUES ('$usuario','$password')";//Se insertan los datos a la base de datos y el usuario ya fue registrado con exito.
                 mysql_query($sql); 
   
