@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Andres Plehm">
+    <meta name="author" content="">
     <link rel="icon" href="Images\idea-genial.png">
     <title>..--|Aula virtual|--..</title>
     <link href="CSS/bootstrap.min.css" rel="stylesheet">
     <link href="CSS/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link href="CSS/jumbotron-narrow.css" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/style,css">
     <link rel="stylesheet" href="CSS\font-awesome.css">
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 </head>
@@ -27,7 +27,8 @@
                         <a href="#"><button type="button" class="btn btn-info">Home</button></a>
                         <a href="#"><button type="button" class="btn btn-info">F.A.Q.</button></a>
                     </div>
-                    <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Login<span class="caret"></span></button>
+                    <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Login
+  <span class="caret"></span></button>
                     <ul class="dropdown-menu">
                         <li role="presentation">
                             <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span><input class="form-control"
@@ -48,45 +49,12 @@
                 </div>
             </nav>
         </div>
-        <section id="principal">
-            <h1 class="text-center">Solicitud de Información</h1>
-            <form method="post" action="send.php" accept-charset="utf-8" class="form-horizontal">
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <td><label>Nombre : (*) </label></td>
-                            <td><input type="text" name="nombre" id="nombre" size="40" required class="form-control"></td>
-                        </tr>
-                        <tr>
-                            <td><label>Empresa : </label></td>
-                            <td><input type="text" name="empresa" id="empresa" size="30" class="form-control"></td>
-                        </tr>
-                        <tr>
-                            <td><label>E-Mail : (*)</label></td>
-                            <td><input type="text" name="mail" id="mail" size="50" required class="form-control"></td>
-                        </tr>
-                        <tr>
-                            <td><label>Consulta : (*)</label></td>
-                            <td><textarea rows="20" c ols="60" id="mensaje" name="mensaje" required class="form-control"></textarea></td>
-                        </tr>
-                        <tr>
-                            <td><input style="float: right" type="checkbox" n ame="novedades" class="checkbox"></td>
-                            <td>¿Desea recibir información como novedades y promociones e n su correo electrónico?
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><label>Ingrese el codigo: (*)</label></td>
-                            <td><img src="includes/captcha.php"><br>
-                                <input name="captcha" type="text"></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td><input type="submit" name="enviar" id="enviar" value="Enviar Solicitud" class="btn btn-info"></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </form>
-        </section>
+        <div class="text-center">
+            <h2>¡El ticket fue enviado!</h2>
+            <img src="Images/valentines-day.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236">
+            <h3>Nos comunicaremos con usted a la brevedad</h3>
+        </div>
+
         <footer class="footer">
             <div class="container text-center">
                 <p>&copy; 2016 Todos los derechos reservados.</p>

@@ -19,13 +19,13 @@ $_SESSION["code"]==$_POST["captcha"])
     $asunto = "Pedido de Informacion de:" . $nombre;
     if (($nombre=="") or ($mail=="") or ($_POST['mensaje']==""))
     {
-        echo
-        "Error en el envio del correo";
+        echo "Error en el envio del correo";
     }
     else
     {
         mail($para, $asunto, utf8_decode($mensaje), $header);
-        echo "correo enviado";
+        header("Location:correo_enviado.html");
+       // echo "correo enviado";
     }
     // Trabajo con la base de datos.
     if (isset($_POST['novedades']))
