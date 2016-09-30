@@ -50,7 +50,7 @@
         </div>
         <section id="principal">
             <h1 class="text-center">Solicitud de Información</h1>
-            <form method="post" action="send.php" accept-charset="utf-8" class="form-horizontal">
+            <form method="POST" action="send.php" accept-charset="utf-8" class="form-horizontal">
                 <table class="table">
                     <tbody>
                         <tr>
@@ -70,14 +70,13 @@
                             <td><textarea rows="20" c ols="60" id="mensaje" name="mensaje" required class="form-control"></textarea></td>
                         </tr>
                         <tr>
-                            <td><input style="float: right" type="checkbox" n ame="novedades" class="checkbox"></td>
+                            <td><input style="float: right" type="checkbox" name="novedades" class="checkbox"></td>
                             <td>¿Desea recibir información como novedades y promociones e n su correo electrónico?
                             </td>
                         </tr>
                         <tr>
                             <td><label>Ingrese el codigo: (*)</label></td>
-                            <td><img src="includes\captcha.php" alt="captcha"><br>
-                                <input name="captcha" type="text"></td>
+                            <td><img src="includes/captcha.php" alt="captcha"/><br><input name="captcha" type="text"></td>
                         </tr>
                         <tr>
                             <td></td>
