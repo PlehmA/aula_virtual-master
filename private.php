@@ -15,6 +15,6 @@ if ($row['@valor_existe']==0)
 	echo "<h1 style='text-align: center'>"."Ingreso invalido al sistema"."</h1>";
 			else 
 			{
-				echo "culo roto"
+				
 			}
 ?>
