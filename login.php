@@ -41,7 +41,7 @@
         </div>
 
         <div class="container">
-            <form name="frmlogin" accept-charset="utf-8" method="POST" action="login.php" class="form-signin">
+            <form name="frmlogin" accept-charset="utf-8" method="POST" action="private.php" class="form-signin">
                 <h2 class="form-signin-heading">Sector privado</h2>
                 </br>
                 <label for="inputEmail" class="sr-only">Nombre de usuario</label>
