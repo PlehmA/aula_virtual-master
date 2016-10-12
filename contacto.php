@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS\font-awesome.css">
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
     <div class="container">
@@ -49,6 +50,11 @@
     <option>4</option>
   </select>
 </div>
+<form action="">
+    
+    <input type="submit" name="enviar">
+</form>
+<div class="g-recaptcha" data-sitekey="6LeWAQkUAAAAACCb3psZx7tTntVHlL2QyvcaOZ2-"></div>
         <footer class="footer">
             <div class="container text-center">
                 <p>&copy; 2016 Todos los derechos reservados.</p>
