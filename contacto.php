@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS\font-awesome.css">
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -76,7 +77,10 @@
                         </tr>
                         <tr>
                             <td><label>Ingrese el codigo: (*)</label></td>
-                            <td><img src="includes/captcha.php" alt="captcha"/><br><input name="captcha" type="text"></td>
+                            <?php
+                            require_once('includes/captcha.php');
+                             ?>
+                            <td><div class="g-recaptcha" data-sitekey="6LfmAwkUAAAAAAhE4NjxiyRiezInbN2Ik5JEjVhH"></div></td>
                         </tr>
                         <tr>
                             <td></td>
