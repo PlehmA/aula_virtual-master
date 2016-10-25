@@ -28,16 +28,14 @@
                         <a href="index.html"><button type="button" class="btn btn-info">Home</button></a>
                         <a href="#"><button type="button" class="btn btn-info">F.A.Q.</button></a>
                     </div>
-                    <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Login<span class="caret"></span></button>
+                    <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Login <span class="caret"></span></button>
                     <ul class="dropdown-menu">
                         <li role="presentation">
-                            <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span><input class="form-control"
-                                    type="text" placeholder="Email address" name="user"></div>
+                            <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span><input class="form-control" type="text" placeholder="Email address" name="user" style="padding: 4px;"></div>
                         </li>
-                        <br>
+                        
                         <li role="presentation">
-                            <div class="input-group"><span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span><input class="form-control"
-                                    type="password" placeholder="Password" name="pass"></div>
+                            <div class="input-group"><span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span><input class="form-control" type="password" placeholder="Password" name="pass" style="padding: 4px;"></div>
                         </li>
                         <li>
                             <div class="checkbox">
@@ -77,10 +75,8 @@
                         </tr>
                         <tr>
                             <td><label>Ingrese el codigo: (*)</label></td>
-                            <?php
-                            require_once('includes/captcha.php');
-                             ?>
-                            <td><div class="g-recaptcha" data-sitekey="6LfmAwkUAAAAAAhE4NjxiyRiezInbN2Ik5JEjVhH"></div></td>
+                            <?php header('Location: includes/recaptcha.php') ?>
+                            <td><div class="g-recaptcha" data-sitekey="6LdoKQgUAAAAAL2u0Q6Se2kAmWa-mJC-TSWwNgup"></div></div></td>
                         </tr>
                         <tr>
                             <td></td>
